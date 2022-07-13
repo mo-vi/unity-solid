@@ -27,4 +27,5 @@ The object does not need to depend on methods or properties that doesn't use. Wi
 ## Dependency inversion
 (Assets/SOLID/DependencyInversion)
 
-
+Attempt to not rely on low-level implementations and abstract functionality at high-level.
+In this example the movement is considered generic making it usable for players and AI. At the same time an interface handles the input values (used by both controllers).
