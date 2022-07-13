@@ -22,7 +22,7 @@ In this example we have Enemy subclasses that potentially handle TakeDamage() in
 ## Interface segregation
 (Assets/SOLID/InterfaceSegregation)
 
-The object does not need to depend on methods or properties that doesn't use. With the use of interfaces you can group and isolate functionality and using it only when an object requires it.
+The object does not need to depend on methods or properties that doesn't use. With the use of interfaces you can group and isolate functionality and use it only when an object requires it.
 
 ## Dependency inversion
 (Assets/SOLID/DependencyInversion)
