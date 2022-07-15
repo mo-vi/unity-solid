@@ -17,7 +17,7 @@ In this example the weapon has an OnShoot event and any projectile behaviour wil
 ## Liskov substitution
 (Assets/SOLID/LiskovSubstitution)
 
-In this example we have Enemy subclasses that potentially handle TakeDamage() in different ways and at the same time they don't break the application nor the superclass itself. For example, EnemyGolem.cs uses its parent definition
+In this example we have Enemy subclasses that potentially handle TakeDamage() in different ways and at the same time they don't break the application nor the superclass itself. For example, EnemyGolem.cs uses its parent definition.
 
 ## Interface segregation
 (Assets/SOLID/InterfaceSegregation)
@@ -28,4 +28,4 @@ The object does not need to depend on methods or properties that doesn't use. Wi
 (Assets/SOLID/DependencyInversion)
 
 Attempt to not rely on low-level implementations and abstract functionality at high-level.
-In this example the movement is considered generic making it usable for players and AI. At the same time an interface handles the input values (used by both controllers).
+In this example the movement is considered generic making it usable for both players and AI. At the same time an interface handles the input values (used by both controllers).
